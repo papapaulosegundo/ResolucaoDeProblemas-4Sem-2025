@@ -21,4 +21,8 @@ public class Pilha {
     public void listar() {
         lista.listar();
     }
+
+    public boolean vazia() {
+        return lista.vazia();
+    }
 }

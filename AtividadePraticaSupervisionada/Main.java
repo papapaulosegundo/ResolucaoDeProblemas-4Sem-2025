@@ -28,7 +28,7 @@ public class Main {
             System.out.println("7 - Merge em Fila com Lista");
             System.out.println("8 - Merge em Fila com Vetor");
             System.out.println("0 - Sair");
-            System.out.print("Escolha uma opção: ");
+            System.out.print("Escolha uma opï¿½ï¿½o: ");
             opcao = scanner.nextInt();
 
             switch (opcao) {
@@ -110,7 +110,7 @@ public class Main {
                     System.out.println("Encerrando o programa.");
                     break;
                 default:
-                    System.out.println("Opção inválida! Tente novamente.");
+                    System.out.println("Opï¿½ï¿½o invï¿½lida! Tente novamente.");
             }
         } while (opcao != 0);
 
