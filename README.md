@@ -4,9 +4,8 @@ Atividades:
   - Primeira Atividade Pilha e Fila - Implenta uma pilha e fila com vetores
 
   - Atividade Prática Supervisionada - Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas
-Manual
 
-Para testar a aplicação basta executar o projeto. A classe Main apresentará um menu com uma série de opções.
+Manual: Para testar a aplicação basta executar o projeto. A classe Main apresentará um menu com uma série de opções.
 
 As opções 1, 2 e 3 são para manipulação da pilha construída com lista encadeada. É possível inserir, remover e listar os elementos da pilha.
 
