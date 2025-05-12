@@ -1,4 +1,5 @@
-public class Main {
+
+public class MainArvore {
 
     public static void main(String[] args) {
     	
@@ -18,14 +19,22 @@ public class Main {
             "-----",".----","..---","...--","....-",".....","-....","--...","---..","----."
         };
         
-        for (int i = 0 ; i < caracter.length ; i+=2) {
+        for (int i = 0 ; i < caracter.length ; i++) {
             arvore.inserir(codigoMorse[i], caracter[i]);
         }
-
-        System.out.println(arvore.buscar("..."));
-        System.out.println(arvore.buscar("---"));
-        System.out.println(arvore.buscar("... --- ..."));
         
+        // Busca codigos de cada caracter
+        for( int i = 0; i < caracter.length; i++ ) {
+            System.out.println(caracter[i] + ": " + arvore.obterCodigoMorse(caracter[i]));        	
+        }
+
+        // busca o caracter de cada codigo;
+        for( int i = 0; i < codigoMorse.length; i++ ) {
+            System.out.println(codigoMorse[i] + ": " + arvore.buscar(codigoMorse[i]));        	
+        }
+        
+        arvore.imprimir();
     }
+    
 
 }

@@ -1,10 +1,11 @@
-public class No {
 
-    char dado;
-    No esquerda;
-    No direita;
+public class NoArvore {
 
-    public No(char dado) {
+    private char dado;
+    private NoArvore esquerda;
+    private NoArvore direita;
+
+    public NoArvore(char dado) {
         this.dado = dado;
         esquerda = null;
         direita = null;
@@ -14,11 +15,11 @@ public class No {
     	return dado;
     }
     
-    public No getEsquerda() {
+    public NoArvore getEsquerda() {
     	return esquerda;
     }
     
-    public No getDireita() {
+    public NoArvore getDireita() {
     	return direita;
     }
     
@@ -26,11 +27,11 @@ public class No {
     	this.dado = dado;
     }
     
-    void setEsquerda(No esquerda) {
+    void setEsquerda(NoArvore esquerda) {
     	this.esquerda = esquerda;
     }
     
-    void setDireita(No direita) {
+    void setDireita(NoArvore direita) {
     	this.direita = direita;
     }
 }

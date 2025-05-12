@@ -1,27 +1,34 @@
 
 public class ArvoreBinaria {
 
-    private No raiz;
+    private NoArvore raiz;
 
     public ArvoreBinaria() {
-    	raiz = new No(' ');
+    	raiz = new NoArvore(' ');
     }
  
     public void inserir(String codigoMorse, char caracter ) {
-        No atual = raiz;
+        NoArvore atual = raiz;
         for (int i = 0; i < codigoMorse.length(); i++) {
             char simbolo = codigoMorse.charAt(i);
+            System.out.println("Inserindo simbolo " + simbolo);
             if (simbolo == '.') {
-                if (atual.esquerda == null) 
-                	atual.esquerda = new No(' ');
-                atual = atual.esquerda;
+                if (atual.getEsquerda() == null) {
+                	atual.setEsquerda(new NoArvore(' '));
+                }
+                atual = atual.getEsquerda();
             } else if (simbolo == '-') {
-                if (atual.direita == null) 
-                	atual.direita = new No(' ');
-                atual = atual.direita;
+                if (atual.getDireita() == null) {
+                	atual.setDireita(new NoArvore(' '));
+                }
+                atual = atual.getDireita();
+            } else {
+            	System.out.println("ERRO: Sï¿½mbolo invï¿½lido " + simbolo);
+            	return;
             }
         }
-        atual.dado = caracter;
+        System.out.println("Inserindo caracter " + caracter);
+        atual.setDado(caracter);
     }
     
     public String buscar(String codigoMorse) {
@@ -29,24 +36,63 @@ public class ArvoreBinaria {
     	String codigos[] = codigoMorse.split(" ");
     	String saida = "";
     	for( String str : codigos ) {
-            No atual = raiz;
+            NoArvore atual = raiz;
     		for(int i = 0; i < str.length(); i++ ) {
     			char simbolo = str.charAt(i);
                 if (simbolo == '.') {
-                    atual = atual.esquerda;
+                    atual = atual.getEsquerda();
                 } else if (simbolo == '-') {
-                	atual = atual.direita;
+                	atual = atual.getDireita();
                 } else {
                 	atual = null;
                 	break;
                 }
     		}
     		if( atual == null ) {
-    			return "ERRO: Simbolo não reconhecido";
+    			return "ERRO: Simbolo nï¿½o reconhecido";
     		} else {
-    			saida += atual.dado;
+    			saida += atual.getDado();
     		}
     	}
     	return saida;
     }
+    
+    public void imprimir() {
+    	System.out.println("raiz");
+    	imprimir(raiz, "", "raiz");
+    }
+    private void imprimir(NoArvore no, String recuo, String simbolo) {
+        if (no != null) {
+        	if( no.getDado() > ' ')
+        		System.out.println(recuo + simbolo + " (" + no.getDado() + ")");
+            imprimir(no.getEsquerda(), recuo + "  ", ".");
+            imprimir(no.getDireita(), recuo + "  ", "-");
+        }
+    }
+    
+    public String obterCodigoMorse(char letra) {
+        letra = Character.toUpperCase(letra);
+        return buscarCodigo(raiz, letra, "");
+    }
+
+    private String buscarCodigo(NoArvore no, char letra, String caminho) {
+        if (no == null) {
+            return null;
+        }
+        if (no.getDado() == letra) {
+            return caminho;
+        }
+
+        // tenta ï¿½ esquerda (ponto)
+        String resultadoEsquerda = buscarCodigo(no.getEsquerda(), letra, caminho + ".");
+        if (resultadoEsquerda != null) {
+            return resultadoEsquerda;
+        }
+
+        // tenta ï¿½ direita (traï¿½o)
+        String resultadoDireita = buscarCodigo(no.getDireita(), letra, caminho + "-");
+        return resultadoDireita;
+    }
+
+
 }
