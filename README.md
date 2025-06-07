@@ -23,3 +23,45 @@ Fila: fila implementada com lista
 FilaV: fila implementada com vetor
 Merge: classe que une duas filas em uma só.
 MergeV: semelhante ao Merge, porém usa a Fila implementada com vetor.
+
+Atividade Tabela Hash: 
+Análise de Tabelas Hash em Java
+
+Este projeto tem como objetivo implementar e analisar o desempenho de diferentes técnicas de tabelas hash, utilizando Java, com foco em:
+- Variação do tamanho da tabela
+- Variação das funções hash
+- Técnicas de resolução de colisões
+
+Objetivos
+1. Comparar o desempenho de diferentes funções hash.
+2. Avaliar o impacto do tamanho da tabela nos tempos de inserção e busca.
+3. Quantificar colisões e comparações.
+4. Analisar os resultados com dados iguais por meio de `seed` fixo.
+5. 
+Estrutura do Projeto
+- AtividadeRA3.java`: Classe principal que realiza os testes de inserção e busca.
+- GeraRegistrosAleatorios.java`: Geração dos conjuntos de dados com registros aleatórios (classe `Registro`).
+- ListaEncadeada.java`: Implementação do tratamento de colisões por encadeamento separado.
+- Registro.java`: Representa o registro com código de 9 dígitos.
+- TabelaHash.java`: Implementação da tabela hash com suporte a múltiplas funções hash e contadores de desempenho.
+-  Análise Hash - RA3pdf.pdf`: Documento com os gráficos, tabelas e análise dos resultados.
+
+Conjuntos de Dados
+- 1 milhão de registros
+- 5 milhões de registros
+- 20 milhões de registros
+
+Métricas Avaliadas
+- Tempo de inserção
+- Número de colisões
+- Tempo de busca
+- Número de comparações
+Foram feitas ao menos 5 buscas em cada rodada, totalizando 27 rodadas (3 tamanhos × 3 funções hash × 3 conjuntos de dados).
+
+Resultados
+Os resultados foram organizados em tabelas e gráficos presentes no arquivo `Análise Hash - RA3pdf.pdf`. O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
+
+Execução
+Compile com:
+```bash
+javac *.java
