@@ -11,7 +11,14 @@ public class AtividadeRA3 {
 		}
 		return colisoes;
 	}
+
+	public static void buscarHash(TabelaHash tabela, Registro[] conjunto) {
+		for(int i = 0; i < conjunto.length; i++ ) {
+			tabela.buscar(conjunto[i].getRegistro());
+		}
+	}
 	
+
 	public static void main(String[] args) {
 		Registro[][] conjuntos = new Registro[3][];
 		System.out.println("Gerando conjunto com 1000000 de registros...");
@@ -42,9 +49,17 @@ public class AtividadeRA3 {
 					System.out.println("\tColisoes: " + 
 					                   String.format("%-9d", colisoes) + 
 					                   " Tempo: " + tempo);
+					for( int t = 0; t < 5; t++ ) {
+						tempoIni = System.currentTimeMillis();
+						buscarHash(tabHash, conjuntos[conjunto]);
+						tempoFim = System.currentTimeMillis();
+						
+						tempo = tempoFim - tempoIni;
+						System.out.println("\t\tBusca " + t + ": Tempo: " + tempo);
+					}
 				}					
 			}
-		}	
-		
+		}		
+
 	}
 }
