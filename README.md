@@ -24,7 +24,7 @@ FilaV: fila implementada com vetor
 Merge: classe que une duas filas em uma só.
 MergeV: semelhante ao Merge, porém usa a Fila implementada com vetor.
 
-Atividade Tabela Hash: 
+  - Atividade Tabela Hash: 
 Análise de Tabelas Hash em Java
 
 Este projeto tem como objetivo implementar e analisar o desempenho de diferentes técnicas de tabelas hash, utilizando Java, com foco em:
