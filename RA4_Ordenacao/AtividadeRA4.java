@@ -16,7 +16,7 @@ public class AtividadeRA4 {
 		for( int tam : tamanhos ) {
 
 			// A) InsertSort
-			conjunto = GeraRegistrosAleatorios.gerar(tam, SEED);
+			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
 			System.out.println("----------------------------");
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 			InsertSort.ordenar(conjunto);
@@ -24,7 +24,7 @@ public class AtividadeRA4 {
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 
 			// B) MergeSort
-			conjunto = GeraRegistrosAleatorios.gerar(tam, SEED);
+			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
 			System.out.println("----------------------------");
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 			MergeSort.ordenar(conjunto);
@@ -32,7 +32,7 @@ public class AtividadeRA4 {
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 			
 			// B) QuickSort
-			conjunto = GeraRegistrosAleatorios.gerar(tam, SEED);
+			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
 			System.out.println("----------------------------");
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 			QuickSort.ordenar(conjunto);
@@ -40,7 +40,7 @@ public class AtividadeRA4 {
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 						
 			// C) RadixSort
-			conjunto = GeraRegistrosAleatorios.gerar(tam, SEED);
+			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
 			System.out.println("----------------------------");
 			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 			RadixSort.ordenar(conjunto);
