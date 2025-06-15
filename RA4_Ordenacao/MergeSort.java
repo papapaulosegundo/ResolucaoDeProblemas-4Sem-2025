@@ -20,7 +20,6 @@ public class MergeSort {
             mergeSort(dados, esquerda, meio);
             mergeSort(dados, meio + 1, direita);
 
-            // Combina as duas metades ordenadas
             intercalar(dados, esquerda, meio, direita);
         }
     }
@@ -28,11 +27,10 @@ public class MergeSort {
     private static void intercalar(int[] dados, int esquerda, int meio, int direita) {
         int[] temp = new int[direita - esquerda + 1];
 
-        int i = esquerda;      // Índice da primeira metade
-        int j = meio + 1;      // Índice da segunda metade
-        int k = 0;             // Índice do array temporário
+        int i = esquerda;     
+        int j = meio + 1;      
+        int k = 0;             
 
-        // Intercala os dois subarrays ordenados
         while (i <= meio && j <= direita) {
             result.somaComparacao();
             if (dados[i] <= dados[j]) {
@@ -42,17 +40,14 @@ public class MergeSort {
             }
         }
 
-        // Copia os elementos restantes da primeira metade (se houver)
         while (i <= meio) {
             temp[k++] = dados[i++];
         }
 
-        // Copia os elementos restantes da segunda metade (se houver)
         while (j <= direita) {
             temp[k++] = dados[j++];
         }
 
-        // Copia os elementos de volta para o array original
         for (int m = 0; m < temp.length; m++) {
             result.somaTroca();
         	dados[esquerda + m] = temp[m];

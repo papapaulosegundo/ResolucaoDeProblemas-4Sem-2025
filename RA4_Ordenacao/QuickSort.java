@@ -21,7 +21,7 @@ public class QuickSort {
     }
 
     private static int particionar(int[] dados, int inicio, int fim) {
-        int pivo = dados[fim]; // pivô escolhido como o último elemento
+        int pivo = dados[fim]; 
         int i = inicio - 1;
 
         for (int j = inicio; j < fim; j++) {
@@ -32,7 +32,7 @@ public class QuickSort {
             }
         }
         result.somaTroca();
-        trocar(dados, i + 1, fim); // Coloca o pivô na posição correta
+        trocar(dados, i + 1, fim); 
         return i + 1;
     }
 
