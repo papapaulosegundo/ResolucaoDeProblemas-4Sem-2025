@@ -58,7 +58,7 @@ Foram feitas ao menos 5 buscas em cada rodada, totalizando 27 rodadas (3 tamanho
 
 Resultados:
 
-Os resultados foram organizados em tabela presente no arquivo `Análise Hash - RA3pdf.pdf` [Baixar Análise Hash (RA3)](./RA3Hash/Análise%20Hash%20-%20RA3pdf.pdf) . 
+Os resultados foram organizados em tabela presente no arquivo `Análise Hash - RA3pdf.pdf` [Visualizar Análise Hash (RA3)](./RA3Hash/Análise%20Hash%20-%20RA3pdf.pdf) . 
 O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -120,7 +120,7 @@ Observações:
 
 Resultados:
 
-Os resultados foram organizados em tabelas e gráficos presente no arquivo `Dados_Ordenacoes.pdf` [Baixar Análise Ordenações (RA4)](./RA4_Ordenacao/Dados_Ordenacoes.pdf) . 
+Os resultados foram organizados em tabelas e gráficos presente no arquivo `Dados_Ordenacoes.pdf` [Visualizar Análise Ordenações (RA4)](./RA4_Ordenacao/Dados_Ordenacoes.pdf) . 
 O número de comparações, trocas e tempo médio de execução foi coletado para cada algoritmo em cada grupo de dados.
 
 Conclusão: 
