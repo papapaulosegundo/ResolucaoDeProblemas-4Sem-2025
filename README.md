@@ -61,8 +61,6 @@ Resultados:
 Os resultados foram organizados em tabela presente no arquivo `Análise Hash - RA3pdf.pdf` [Visualizar Análise Hash (RA3)](./RA3Hash/Análise%20Hash%20-%20RA3pdf.pdf) . 
 O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Atividade Ordenação: Avaliação de Algoritmos de Ordenação
 
 Descrição:
