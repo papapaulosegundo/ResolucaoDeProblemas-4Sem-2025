@@ -119,6 +119,6 @@ Observações:
     - Grupo C: Radix Sort
 
 Resultados:
-Os resultados foram organizados em tabelas e gráficos presente no arquivo `Dados_Ordenacoes.pdf` [Baixar Análise Ordenações (RA3)](./RA4_Ordenacao/Dados_Ordenacoes.pdf) . 
+Os resultados foram organizados em tabelas e gráficos presente no arquivo `Dados_Ordenacoes.pdf` [Baixar Análise Ordenações (RA4)](./RA4_Ordenacao/Dados_Ordenacoes.pdf) . 
 O número de comparações, trocas e tempo médio de execução foi coletado para cada algoritmo em cada grupo de dados.
 
