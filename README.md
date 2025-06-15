@@ -57,12 +57,7 @@ Métricas Avaliadas
 Foram feitas ao menos 5 buscas em cada rodada, totalizando 27 rodadas (3 tamanhos × 3 funções hash × 3 conjuntos de dados).
 
 Resultados
-Os resultados foram organizados em tabelas e gráficos presentes no arquivo `Análise Hash - RA3pdf.pdf`. O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
-
-Execução
-Compile com:
-bash
-javac *.java
+Os resultados foram organizados em tabelas e gráficos presentes no arquivo `Análise Hash - RA3pdf.pdf` [Baixar o PDF](./Análise Hash - RA3pdf.pdf) . O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
