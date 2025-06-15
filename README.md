@@ -1,11 +1,8 @@
-Repositorio para a matéria de Resolução de Problemas 4º semestre - PUCPR
+<h1 align="center"> Repositorio para a matéria de Resolução de Problemas 4º semestre - PUCPR </h1>
 
-Atividades:
-*Primeira Atividade Pilha e Fila - Implenta uma pilha e fila com vetores*
+## Primeira Atividade Pilha e Fila: Implenta uma pilha e fila com vetores
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-*Atividade Prática Supervisionada - Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas*
+## Atividade Prática Supervisionada: Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas
 
 Manual: Para testar a aplicação basta executar o projeto. A classe Main apresentará um menu com uma série de opções.
 
@@ -26,9 +23,7 @@ FilaV: fila implementada com vetor
 Merge: classe que une duas filas em uma só.
 MergeV: semelhante ao Merge, porém usa a Fila implementada com vetor.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-*Atividade Tabela Hash: Análise de Tabelas Hash em Java*
+## Atividade Tabela Hash: Análise de Tabelas Hash em Java 
 
 Este projeto tem como objetivo implementar e analisar o desempenho de diferentes técnicas de tabelas hash, utilizando Java, com foco em:
 - Variação do tamanho da tabela
@@ -40,7 +35,7 @@ Objetivos
 2. Avaliar o impacto do tamanho da tabela nos tempos de inserção e busca.
 3. Quantificar colisões e comparações.
 4. Analisar os resultados com dados iguais por meio de `seed` fixo.
-5. 
+   
 Estrutura do Projeto
 - AtividadeRA3.java`: Classe principal que realiza os testes de inserção e busca.
 - GeraRegistrosAleatorios.java`: Geração dos conjuntos de dados com registros aleatórios (classe `Registro`).
@@ -66,12 +61,12 @@ Os resultados foram organizados em tabelas e gráficos presentes no arquivo `An�
 
 Execução
 Compile com:
-```bash
+bash
 javac *.java
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*Atividade Ordenação: Avaliação de Algoritmos de Ordenação*
+## Atividade Ordenação: Avaliação de Algoritmos de Ordenação
 
 Descrição:
 Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de ordenação quanto ao:
@@ -106,6 +101,7 @@ Estrutura do projeto:
   - Resultado.java: Classe utilizada para armazenar e exibir os dados coletados (tempo, trocas, iterações).
 
 Como executar
+
   1 - Compile os arquivos:
     javac *.java
 
