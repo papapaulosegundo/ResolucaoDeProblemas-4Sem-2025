@@ -1,9 +1,11 @@
 Repositorio para a matéria de Resolução de Problemas 4º semestre - PUCPR
 
 Atividades:
-  - Primeira Atividade Pilha e Fila - Implenta uma pilha e fila com vetores
+*Primeira Atividade Pilha e Fila - Implenta uma pilha e fila com vetores*
 
-  - Atividade Prática Supervisionada - Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Atividade Prática Supervisionada - Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas*
 
 Manual: Para testar a aplicação basta executar o projeto. A classe Main apresentará um menu com uma série de opções.
 
@@ -24,8 +26,9 @@ FilaV: fila implementada com vetor
 Merge: classe que une duas filas em uma só.
 MergeV: semelhante ao Merge, porém usa a Fila implementada com vetor.
 
-  - Atividade Tabela Hash: 
-Análise de Tabelas Hash em Java
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Atividade Tabela Hash: Análise de Tabelas Hash em Java*
 
 Este projeto tem como objetivo implementar e analisar o desempenho de diferentes técnicas de tabelas hash, utilizando Java, com foco em:
 - Variação do tamanho da tabela
@@ -65,3 +68,59 @@ Execução
 Compile com:
 ```bash
 javac *.java
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Atividade Ordenação: Avaliação de Algoritmos de Ordenação*
+
+Descrição:
+Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de ordenação quanto ao:
+  - Tempo de execução
+  - Número de trocas
+  - Número de iterações
+
+Foram utilizados vetores de números inteiros gerados aleatoriamente, com tamanhos de:
+  - 1.000 elementos
+  - 10.000 elementos
+  - 100.000 elementos
+  - 500.000 elementos
+  - 1.000.000 elementos
+*Cada configuração foi testada em 5 rodadas distintas, com diferentes conjuntos de dados gerados a partir de seeds fixas, permitindo reprodutibilidade dos experimentos.
+
+Algoritmos implementados
+Grupo A:
+  Insert Sort
+Grupo B:
+  Merge Sort
+  Quick Sort
+Grupo C:
+  Radix Sort
+
+Estrutura do projeto:
+  - AtividadeRA4.java: Classe principal que orquestra os testes e coleta os resultados.
+  - GeraRegistrosAleatorios.java: Responsável por gerar os vetores de inteiros com base em uma seed.
+  - InsertSort.java: Implementação do algoritmo Insert Sort.
+  - MergeSort.java: Implementação do algoritmo Merge Sort.
+  - QuickSort.java: Implementação do algoritmo Quick Sort.
+  - RadixSort.java: Implementação do algoritmo Radix Sort.
+  - Resultado.java: Classe utilizada para armazenar e exibir os dados coletados (tempo, trocas, iterações).
+
+Como executar
+  1 - Compile os arquivos:
+    javac *.java
+
+  2 - Execute o programa:
+    java AtividadeRA4
+*Os resultados serão exibidos no console e poderão ser exportados conforme implementado.
+
+Métricas avaliadas - Para cada algoritmo e tamanho de vetor, o projeto registra:
+  - Tempo de execução (ms)
+  - Número de trocas realizadas
+  - Número de iterações (ou comparações, conforme o algoritmo)
+
+Observações:
+  - As seeds dos geradores foram fixadas para garantir que os mesmos dados sejam utilizados em diferentes rodadas e algoritmos.
+  - Os algoritmos foram selecionados conforme os grupos propostos para o trabalho:
+    - Grupo A: Insert Sort
+    - Grupo B: Merge Sort e Quick Sort
+    - Grupo C: Radix Sort
