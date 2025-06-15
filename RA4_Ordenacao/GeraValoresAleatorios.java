@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class GeraRegistrosAleatorios {
+public class GeraValoresAleatorios {
 
 	public static int[] gerar(int nItens, long seed) {
 		int[] itens = new int[nItens];
