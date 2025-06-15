@@ -13,39 +13,42 @@ public class AtividadeRA4 {
 		int conjunto[];
 		int tamanhos[] = {1000, 10000, 100000, 500000, 1000000};
 		
-		for( int tam : tamanhos ) {
+		for(int rodada = 1; rodada <= 5; rodada++) {
+			for( int tam : tamanhos ) {
 
-			// A) InsertSort
-			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
-			System.out.println("----------------------------");
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-			InsertSort.ordenar(conjunto);
-			System.out.println(InsertSort.result.exporta("InsertSort", 1));
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				// A) InsertSort
+				conjunto = GeraValoresAleatorios.gerar(tam, SEED);
+				System.out.println("----------------------------");
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				InsertSort.ordenar(conjunto);
+				System.out.println(InsertSort.result.exporta("InsertSort", rodada));
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
 
-			// B) MergeSort
-			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
-			System.out.println("----------------------------");
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-			MergeSort.ordenar(conjunto);
-			System.out.println(MergeSort.result.exporta("MergeSort", 1));
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-			
-			// B) QuickSort
-			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
-			System.out.println("----------------------------");
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-			QuickSort.ordenar(conjunto);
-			System.out.println(QuickSort.result.exporta("QuickSort", 1));
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-						
-			// C) RadixSort
-			conjunto = GeraValoresAleatorios.gerar(tam, SEED);
-			System.out.println("----------------------------");
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
-			RadixSort.ordenar(conjunto);
-			System.out.println(RadixSort.result.exporta("RadixSort", 1));
-			System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				// B) MergeSort
+				conjunto = GeraValoresAleatorios.gerar(tam, SEED);
+				System.out.println("----------------------------");
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				MergeSort.ordenar(conjunto);
+				System.out.println(MergeSort.result.exporta("MergeSort", rodada));
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				
+				// B) QuickSort
+				conjunto = GeraValoresAleatorios.gerar(tam, SEED);
+				System.out.println("----------------------------");
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				QuickSort.ordenar(conjunto);
+				System.out.println(QuickSort.result.exporta("QuickSort", rodada));
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+							
+				// C) RadixSort
+				conjunto = GeraValoresAleatorios.gerar(tam, SEED);
+				System.out.println("----------------------------");
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+				RadixSort.ordenar(conjunto);
+				System.out.println(RadixSort.result.exporta("RadixSort", rodada));
+				System.out.println("Ordenado: " + verificaOrdenacao(conjunto) );
+
+			}
 		}
 
 	}
