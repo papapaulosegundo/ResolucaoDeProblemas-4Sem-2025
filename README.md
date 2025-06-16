@@ -144,16 +144,34 @@ Foram feitas ao menos 5 buscas em cada rodada, totalizando 27 rodadas (3 tamanho
 Os resultados foram organizados em tabela presente no arquivo `Análise Hash - RA3pdf.pdf` [Visualizar Análise Hash (RA3)](./RA3Hash/Análise%20Hash%20-%20RA3pdf.pdf) . 
 O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
 
-<h4 align="left"> Gráficos: </h4>
+<h4 align="left"> Gráficos de Tempo de Inserção: </h4>
+
+<details>
+<summary>:bookmark_tabs: Clique Para ver os Gráficos de Inserção</summary>
 
 *Gráfico 1: Análise por Fator de Carga:*
 
 ![image](https://github.com/user-attachments/assets/c3c3cf46-9f95-428b-a9e3-c038bc0ab01d)
 
-
  *Gráfico 2: Análise por Algoritmo:*
  
  ![image](https://github.com/user-attachments/assets/77558f7a-51c0-497d-a7e7-c492997001b3)
+</details>
+ 
+<h4 align="left"> Gráficos de Tempo de Médio de Busca: </h4>
+
+<details>
+<summary>:bookmark_tabs: Clique Para ver os Gráficos de Busca</summary>
+   
+*Gráfico 1: Análise por Fator de Carga:*
+
+![image](https://github.com/user-attachments/assets/5dd9d8d4-8fee-4937-8a14-d9897bc9a202)
+
+
+ *Gráfico 2: Análise por Algoritmo:*
+
+ ![image](https://github.com/user-attachments/assets/1ed45fe3-49da-4bfd-9a79-f96abcea8757)
+</details>
 
 <h4 align="left"> Análise Comparativa: </h4>
 
