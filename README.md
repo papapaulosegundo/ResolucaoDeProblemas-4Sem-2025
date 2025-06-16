@@ -1,4 +1,4 @@
-<h1 align="center"> Repositorio para a matéria de Resolução de Problemas 4º semestre - PUCPR </h1>
+<h1 align="center"> Repositório Para a Matéria de Resolução de Problemas 4º semestre - PUCPR </h1>
 
 ## Primeira Atividade Pilha e Fila: Implenta uma pilha e fila com vetores
 
@@ -174,7 +174,7 @@ Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de
   - Número de trocas
   - Número de iterações
 
-*Foram utilizados vetores de números inteiros gerados aleatoriamente, com tamanhos de:*
+<h4 align="left"> Foram utilizados vetores de números inteiros gerados aleatoriamente, com tamanhos de: </h4>
   - 1.000 elementos
   - 10.000 elementos
   - 100.000 elementos
@@ -214,4 +214,40 @@ O número de comparações, trocas e tempo médio de execução foi coletado par
 <h4 align="left"> Conclusão: </h4>
 
 Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o mais vantajoso
+
+##
+
+<h1 align="center"> Final do Repositório Para a Matéria de Resolução de Problemas 4º semestre - PUCPR </h1>
+
+<h3 align="left"> Como Rodar os Projetos do Repositório:  </h3>
+
+### Pré-requisitos
+   - Ter o **Java JDK** instalado (versão 8 ou superior)
+   - Ter uma IDE como **IntelliJ IDEA**, **Eclipse**, ou utilizar o terminal
+
+### Executando pelo terminal:
+   1. Acesse a pasta do projeto:
+      ```bash
+      cd caminho/para/seu/projeto
+      ```
+   
+   2. Entre na pasta `src`:
+       ```bash
+       cd src
+       ```
+   
+   3. Compile todos os arquivos:
+      * No __CMD__ (prompt de comando):
+       ```bash
+       javac *.java
+       ```
+       * No __PowerShell__ :
+       ```bash
+       javac (Get-ChildItem *.java).Name
+       ```
+       
+   4. Execute a aplicação:
+       ```bash
+       java Main
+       ```
 
