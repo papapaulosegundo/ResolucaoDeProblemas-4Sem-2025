@@ -215,7 +215,7 @@ O número de comparações, trocas e tempo médio de execução foi coletado par
 
 Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o mais vantajoso
 
-##
+###
 
 <h1 align="center"> Final do Repositório Para a Matéria de Resolução de Problemas 4º semestre - PUCPR </h1>
 
@@ -224,6 +224,7 @@ Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o m
 ### Pré-requisitos
    - Ter o **Java JDK** instalado (versão 8 ou superior)
    - Ter uma IDE como **IntelliJ IDEA**, **Eclipse**, ou utilizar o terminal
+   - Extensão JAVA para VSCODE (se for utilizado VSCODE)
 
 ### Executando pelo terminal:
    1. Acesse a pasta do projeto:
@@ -251,3 +252,6 @@ Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o m
        java Main
        ```
 
+<h3 align="left"> Linguagem Utilizada: </h3>
+
+![image](https://github.com/user-attachments/assets/b0fd91f5-dd61-4a6b-a9f6-ef4cb9c3244f)
