@@ -37,7 +37,7 @@ Cada conjunto foi preenchido com valores inteiros gerados aleatoriamente.
 
 Teve como objetivo implementar as estruturas Pilha e Fila utilizando listas encadeadas dinâmicas, além de realizar o merge de duas filas ordenadas. O projeto foi desenvolvido em duas versões: uma com listas encadeadas e outra com vetores.
 
-*Manual: Para testar a aplicação basta executar o projeto.* 
+ <h4 align="left"> Manual: Para testar a aplicação basta executar o projetos: </h4>
 
    - A classe Main apresentará um menu com uma série de opções.
    - As opções 1, 2 e 3 são para manipulação da pilha construída com lista encadeada. É possível inserir, remover e listar os elementos da pilha.
@@ -45,7 +45,7 @@ Teve como objetivo implementar as estruturas Pilha e Fila utilizando listas enca
    - A opção 7 realiza um merge de duas filas construídas com lista encadeada, ela solicita os dados das duas pilhas e apresenta a fila resultante.
    - A opção 8 também realiza um merge, mas com as filas construídas com vetores.
 
-*Classes envolvidas:*
+ <h4 align="left"> Classes envolvidas: </h4>
 
    - Lista: manipulação da lista encadeada
    - No: manipulação de um nó da lista
@@ -55,7 +55,7 @@ Teve como objetivo implementar as estruturas Pilha e Fila utilizando listas enca
    - Merge: classe que une duas filas em uma só.
    - MergeV: semelhante ao Merge, porém usa a Fila implementada com vetor.
 
-*Descrição das Soluções:*
+<h4 align="left"> Descrição das Soluções: </h4>
 
    - Uso de listas encadeadas em Pilha, Fila e Merge.
    - Exibição dos elementos removidos em cada operação de remoção.
