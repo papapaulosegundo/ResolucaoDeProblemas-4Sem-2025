@@ -285,6 +285,7 @@ Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o m
         </sub>
       </a>
     </td>
+    <td width="50"></td>
     <td align="center">
       <a href="https://github.com/GiuliaVerse" title="Giulia">
         <img src="https://github.com/user-attachments/assets/7b9c555e-6825-4e2b-9f04-4cd4e4ae9b21" width="100px;" alt="Foto da Giulia Casteluci"/><br>
