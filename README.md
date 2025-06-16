@@ -2,11 +2,11 @@
 
 ## Primeira Atividade Pilha e Fila: Implenta uma pilha e fila com vetores
 
-*Descrição:*
+<h4 align="left"> Descrição: </h4>
 
 Implementação de estruturas — **Pilha e Fila** — utilizando Java. O foco da atividade foi exercitar os conceitos fundamentais de estruturas de dados, além de implementar e realizar testes sobre o funcionamento das estruturas.
 
-*Estruturas Implementadas:*
+<h4 align="left"> Estruturas Implementadas: </h4>
 
 *A Pilha foi implementada com o conceito **LIFO** (Last In, First Out), utilizando um vetor para armazenar os elementos. As principais funções da Pilha são:* 
 
@@ -24,7 +24,7 @@ Implementação de estruturas — **Pilha e Fila** — utilizando Java. O foco d
    - isFull(): verifica se a fila está cheia.
    - print(): imprime os elementos da fila.
 
-*Tamanhos dos Conjuntos Testados*
+<h4 align="left"> Tamanhos dos Conjuntos Testados: </h4>
 
    - 10 elementos
    - 100 elementos
@@ -33,7 +33,7 @@ Cada conjunto foi preenchido com valores inteiros gerados aleatoriamente.
 
 ## Atividade Prática Supervisionada: Implementando uma pilha e fila com lista encadeada e uma classe merge que junta 2 filas
 
-*Descrição:*
+<h4 align="left"> Descrição: </h4>
 
 Teve como objetivo implementar as estruturas Pilha e Fila utilizando listas encadeadas dinâmicas, além de realizar o merge de duas filas ordenadas. O projeto foi desenvolvido em duas versões: uma com listas encadeadas e outra com vetores.
 
@@ -64,13 +64,13 @@ Teve como objetivo implementar as estruturas Pilha e Fila utilizando listas enca
 
 ## Atividade Prática Supervisionada 2: Codígo Morse
 
-*Descrição:*
+<h4 align="left"> Descrição: </h4>
 
 Este projeto implementa uma Árvore Binária para representar o Código Morse. Cada nó da árvore corresponde a um símbolo alfanumérico, e o caminho da raiz ao nó descreve a sequência de pontos (.) e traços (-) do código Morse.
 
-*Estruturas Implementadas:*
+<h4 align="left"> Estruturas Implementadas: </h4>
 
-**ArvoreBinaria**
+*ArvoreBinaria*
 
    - Classe principal que representa a árvore binária do código Morse. Principais funções:
    - inserir(String codigoMorse, char simbolo): insere um símbolo na árvore de acordo com seu código Morse.
@@ -79,36 +79,37 @@ Este projeto implementa uma Árvore Binária para representar o Código Morse. C
    - decodificar(String mensagemMorse): converte uma mensagem em código Morse para texto.
    - codificar(String mensagemTexto): converte uma mensagem de texto para código Morse.
 
-**NoArvore**
+*NoArvore*
    - Classe que representa os nós da árvore, contendo o símbolo e as referências para os filhos esquerdo (.) e direito (-).
 
-**MainArvore**
+*MainArvore*
    - Classe principal para executar o programa e interagir com o usuário.
 
-*Tamanhos dos Conjuntos Testados:*
+<h4 align="left"> Tamanhos dos Conjuntos Testados: </h4>
    - Todas as letras do alfabeto (A-Z)
    - Todos os números (0-9)
 
-*Conclusão:*
+<h4 align="left"> Conclusão: </h4>
 
 O projeto cumpriu seu objetivo de implementar uma árvore binária para representar o código Morse e permitiu exercitar operações clássicas em árvores (inserção, busca, exibição).
 
 ## Atividade Tabela Hash: Análise de Tabelas Hash em Java 
 
-*Descrição Geral:*
+<h4 align="left"> Descrição: </h4>
 
 Este projeto tem como objetivo implementar e analisar o desempenho de diferentes técnicas de tabelas hash, utilizando Java, com foco em:
    - Variação do tamanho da tabela
    - Variação das funções hash
    - Técnicas de resolução de colisões
 
-*Objetivos:*
+<h4 align="left"> Objetivos: </h4>
    1. Comparar o desempenho de diferentes funções hash.
    2. Avaliar o impacto do tamanho da tabela nos tempos de inserção e busca.
    3. Quantificar colisões e comparações.
    4. Analisar os resultados com dados iguais por meio de `seed` fixo.
    
-*Estrutura do Projeto:*
+<h4 align="left"> Estrutura do Projeto: </h4>
+
    - AtividadeRA3.java`: Classe principal que realiza os testes de inserção e busca.
    - GeraRegistrosAleatorios.java`: Geração dos conjuntos de dados com registros aleatórios (classe `Registro`).
    - ListaEncadeada.java`: Implementação do tratamento de colisões por encadeamento separado.
@@ -116,53 +117,57 @@ Este projeto tem como objetivo implementar e analisar o desempenho de diferentes
    - TabelaHash.java`: Implementação da tabela hash com suporte a múltiplas funções hash e contadores de desempenho.
    -  Análise Hash - RA3pdf.pdf`: Documento com os gráficos, tabelas e análise dos resultados.
 
-*Funções:*
+<h4 align="left"> Funções: </h4>
+
    - inserir: insere um registro na tabela.
    - buscar: busca um registro pela chave.
    - remover: remove um registro pela chave.
    - calcularHash: função de hash simples (chave % tamanhoTabela).
    - imprimir: exibe o conteúdo da tabela hash.
 
-*Conjuntos de Dados:*
+<h4 align="left"> Conjuntos de Dados: </h4>
+
    - 1 milhão de registros
    - 5 milhões de registros
    - 20 milhões de registros
 
-*Métricas Avaliadas:*
+<h4 align="left"> Métricas Avaliadas: </h4>
+
    - Tempo de inserção
    - Número de colisões
    - Tempo de busca
    - Número de comparações
 Foram feitas ao menos 5 buscas em cada rodada, totalizando 27 rodadas (3 tamanhos × 3 funções hash × 3 conjuntos de dados).
 
-*Resultados:*
+<h4 align="left"> Resultados: </h4>
 
 Os resultados foram organizados em tabela presente no arquivo `Análise Hash - RA3pdf.pdf` [Visualizar Análise Hash (RA3)](./RA3Hash/Análise%20Hash%20-%20RA3pdf.pdf) . 
 O desempenho de cada função hash e tamanho de tabela foi comparado e justificado com base nas métricas coletadas.
 
-*Gráficos:*
+<h4 align="left"> Gráficos: </h4>
 
-**Gráfico 1: Análise por Fator de Carga:** 
+*Gráfico 1: Análise por Fator de Carga:*
 
 ![image](https://github.com/user-attachments/assets/c3c3cf46-9f95-428b-a9e3-c038bc0ab01d)
 
 
- **Gráfico 2: Análise por Algoritmo:**
+ *Gráfico 2: Análise por Algoritmo:*
+ 
  ![image](https://github.com/user-attachments/assets/77558f7a-51c0-497d-a7e7-c492997001b3)
 
-*Análise Comparativa:*
+<h4 align="left"> Análise Comparativa: </h4>
 
    - O uso de encadeamento permitiu manter um desempenho estável mesmo em cenários com colisões.
    - O tempo de inserção e busca cresceu de forma moderada à medida que o volume de dados aumentou.
    - A função hash simples (% tamanhoTabela) pode gerar colisões para chaves próximas, sugerindo melhorias como uso de função hash mais sofisticada.
 
-*Conclusão:*
+<h4 align="left"> Conclusão: </h4>
 
 A implementação atendeu ao objetivo proposto, demonstrando o funcionamento da tabela hash com tratamento de colisões.
 
 ## Atividade Ordenação: Avaliação de Algoritmos de Ordenação
 
-*Descrição:*
+<h4 align="left"> Descrição: </h4>
 
 Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de ordenação quanto ao:
   - Tempo de execução
@@ -177,16 +182,7 @@ Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de
   - 1.000.000 elementos
 *Cada configuração foi testada em 5 rodadas distintas, com diferentes conjuntos de dados gerados a partir de seeds fixas, permitindo reprodutibilidade dos experimentos.
 
-*Algoritmos implementados:*
-   Grupo A:
-      - Insert Sort
-   Grupo B:
-      - Merge Sort
-      - Quick Sort
-   Grupo C:
-      - Radix Sort
-
-*Estrutura do projeto:*
+<h4 align="left"> Estrutura do projeto: </h4>
 
   - AtividadeRA4.java: Classe principal que orquestra os testes e coleta os resultados.
   - GeraRegistrosAleatorios.java: Responsável por gerar os vetores de inteiros com base em uma seed.
@@ -196,13 +192,13 @@ Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de
   - RadixSort.java: Implementação do algoritmo Radix Sort.
   - Resultado.java: Classe utilizada para armazenar e exibir os dados coletados (tempo, trocas, iterações).
 
-*Métricas avaliadas - Para cada algoritmo e tamanho de vetor, o projeto registra:*
+<h4 align="left"> Métricas avaliadas - Para cada algoritmo e tamanho de vetor, o projeto registra: </h4>
 
   - Tempo de execução (ms)
   - Número de trocas realizadas
   - Número de iterações (ou comparações, conforme o algoritmo)
 
-*Observações:*
+<h4 align="left"> Observações: </h4>
 
   - As seeds dos geradores foram fixadas para garantir que os mesmos dados sejam utilizados em diferentes rodadas e algoritmos.
   - Os algoritmos foram selecionados conforme os grupos propostos para o trabalho:
@@ -210,12 +206,12 @@ Este projeto tem como objetivo comparar o desempenho de diferentes algoritmos de
     - Grupo B: Merge Sort e Quick Sort
     - Grupo C: Radix Sort
 
-*Resultados:*
+<h4 align="left"> Resultados: </h4>
 
 Os resultados foram organizados em tabelas e gráficos presente no arquivo `Dados_Ordenacoes.pdf` [Visualizar Análise Ordenações (RA4)](./RA4_Ordenacao/Dados_Ordenacoes.pdf) . 
 O número de comparações, trocas e tempo médio de execução foi coletado para cada algoritmo em cada grupo de dados.
 
-*Conclusão:* 
+<h4 align="left"> Conclusão: </h4>
 
 Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o mais vantajoso
 
