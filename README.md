@@ -273,3 +273,32 @@ Quick Sort foi o mais eficiente, mostrando em todas as análises que ele foi o m
 <h3 align="left"> Linguagem Utilizada: </h3>
 
 ![image](https://github.com/user-attachments/assets/b0fd91f5-dd61-4a6b-a9f6-ef4cb9c3244f)
+
+<h3 align="left"> Contribuintes: </h3>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/papapaulosegundo" title="Paulo">
+        <img src="https://github.com/user-attachments/assets/cf42f962-301e-4d84-bfad-7aecbefeaf1a" width="100px;" alt="Foto do Paulo César"/><br>
+        <sub>
+          <b>Paulo César Muchalski</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GiuliaVerse" title="Giulia">
+        <img src="https://github.com/user-attachments/assets/7b9c555e-6825-4e2b-9f04-4cd4e4ae9b21" width="100px;" alt="Foto da Giulia Casteluci"/><br>
+        <sub>
+          <b>Giulia Casteluci</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h5 align="left"> Para Entrar em Contato: </h5>
+<p align="left">
+  <a href="https://www.linkedin.com/in/paulo-muchalski-0794652b9/" title="LinkedIn">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" alt="LinkedIn"/></a>
+</p>
+
